@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
-import { Menu, X, ChevronDown } from 'lucide-react'
+import { Menu, X, ChevronDown, Search, Share2, Zap, ShoppingCart, Globe, Settings, ArrowRight } from 'lucide-react'
 import Link from 'next/link'
 import {
   DropdownMenu,
@@ -27,46 +27,85 @@ export default function Header() {
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8">
           <DropdownMenu>
-            <DropdownMenuTrigger className="text-sm font-medium text-gray-700 hover:text-pink-600 transition flex items-center gap-1 outline-none">
+            <DropdownMenuTrigger className="text-sm font-medium text-gray-700 hover:text-pink-600 transition flex items-center gap-1 outline-none focus:outline-none">
               Services
-              <ChevronDown className="w-4 h-4" />
+              <ChevronDown className="w-4 h-4 transition-transform group-data-[state=open]:rotate-180" />
             </DropdownMenuTrigger>
-            <DropdownMenuContent align="start" className="w-56">
-              <DropdownMenuItem asChild>
-                <Link href="/services/paid-search" className="cursor-pointer">
-                  Paid Search
-                </Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem asChild>
-                <Link href="/services/paid-social" className="cursor-pointer">
-                  Paid Social
-                </Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem asChild>
-                <Link href="/services/performance-creative" className="cursor-pointer">
-                  Performance Creative
-                </Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem asChild>
-                <Link href="/services/amazon-ads" className="cursor-pointer">
-                  Amazon Ads
-                </Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem asChild>
-                <Link href="/services/seo" className="cursor-pointer">
-                  SEO
-                </Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem asChild>
-                <Link href="/services/hubspot" className="cursor-pointer">
-                  HubSpot
-                </Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem asChild>
-                <Link href="#services" className="cursor-pointer">
-                  All Services
-                </Link>
-              </DropdownMenuItem>
+            <DropdownMenuContent align="start" className="w-80 p-2 bg-white border border-gray-200 rounded-xl shadow-xl">
+              <div className="grid grid-cols-1 gap-1">
+                <DropdownMenuItem asChild className="p-0">
+                  <Link href="/services/paid-search" className="flex items-center gap-3 p-3 rounded-lg hover:bg-gradient-to-r hover:from-blue-50 hover:to-cyan-50 transition-all group cursor-pointer">
+                    <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                      <Search className="w-5 h-5 text-white" />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <div className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">Paid Search</div>
+                      <div className="text-xs text-gray-500 truncate">Google & Microsoft Ads</div>
+                    </div>
+                    <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-blue-600 opacity-0 group-hover:opacity-100 transition-all" />
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild className="p-0">
+                  <Link href="/services/paid-social" className="flex items-center gap-3 p-3 rounded-lg hover:bg-gradient-to-r hover:from-purple-50 hover:to-pink-50 transition-all group cursor-pointer">
+                    <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                      <Share2 className="w-5 h-5 text-white" />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <div className="font-semibold text-gray-900 group-hover:text-purple-600 transition-colors">Paid Social</div>
+                      <div className="text-xs text-gray-500 truncate">Meta, TikTok, LinkedIn</div>
+                    </div>
+                    <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-purple-600 opacity-0 group-hover:opacity-100 transition-all" />
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild className="p-0">
+                  <Link href="/services/performance-creative" className="flex items-center gap-3 p-3 rounded-lg hover:bg-gradient-to-r hover:from-rose-50 hover:to-orange-50 transition-all group cursor-pointer">
+                    <div className="w-10 h-10 bg-gradient-to-br from-rose-500 to-orange-500 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                      <Zap className="w-5 h-5 text-white" />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <div className="font-semibold text-gray-900 group-hover:text-rose-600 transition-colors">Performance Creative</div>
+                      <div className="text-xs text-gray-500 truncate">Award-winning creative</div>
+                    </div>
+                    <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-rose-600 opacity-0 group-hover:opacity-100 transition-all" />
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild className="p-0">
+                  <Link href="/services/amazon-ads" className="flex items-center gap-3 p-3 rounded-lg hover:bg-gradient-to-r hover:from-yellow-50 hover:to-orange-50 transition-all group cursor-pointer">
+                    <div className="w-10 h-10 bg-gradient-to-br from-yellow-500 to-orange-500 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                      <ShoppingCart className="w-5 h-5 text-white" />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <div className="font-semibold text-gray-900 group-hover:text-orange-600 transition-colors">Amazon Ads</div>
+                      <div className="text-xs text-gray-500 truncate">Amazon growth experts</div>
+                    </div>
+                    <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-orange-600 opacity-0 group-hover:opacity-100 transition-all" />
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild className="p-0">
+                  <Link href="/services/seo" className="flex items-center gap-3 p-3 rounded-lg hover:bg-gradient-to-r hover:from-green-50 hover:to-emerald-50 transition-all group cursor-pointer">
+                    <div className="w-10 h-10 bg-gradient-to-br from-green-500 to-emerald-500 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                      <Globe className="w-5 h-5 text-white" />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <div className="font-semibold text-gray-900 group-hover:text-green-600 transition-colors">SEO</div>
+                      <div className="text-xs text-gray-500 truncate">AI-driven SEO strategy</div>
+                    </div>
+                    <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-green-600 opacity-0 group-hover:opacity-100 transition-all" />
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild className="p-0">
+                  <Link href="/services/hubspot" className="flex items-center gap-3 p-3 rounded-lg hover:bg-gradient-to-r hover:from-orange-50 hover:to-red-50 transition-all group cursor-pointer">
+                    <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                      <Settings className="w-5 h-5 text-white" />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <div className="font-semibold text-gray-900 group-hover:text-orange-600 transition-colors">HubSpot</div>
+                      <div className="text-xs text-gray-500 truncate">CRM & automation</div>
+                    </div>
+                    <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-orange-600 opacity-0 group-hover:opacity-100 transition-all" />
+                  </Link>
+                </DropdownMenuItem>
+              </div>
             </DropdownMenuContent>
           </DropdownMenu>
           <a href="#industries" className="text-sm font-medium text-gray-700 hover:text-pink-600 transition">
@@ -104,28 +143,67 @@ export default function Header() {
         <div className="md:hidden border-t border-gray-200 bg-white/95 backdrop-blur-md">
           <div className="px-4 py-4 space-y-4">
             <div className="space-y-2">
-              <div className="text-sm font-semibold text-gray-900 mb-2">Services</div>
-              <Link href="/services/paid-search" className="block pl-4 text-sm font-medium text-gray-700 hover:text-pink-600" onClick={() => setIsMenuOpen(false)}>
-                Paid Search
+              <div className="text-sm font-semibold text-gray-900 mb-3 px-2">Services</div>
+              <Link href="/services/paid-search" className="flex items-center gap-3 p-3 rounded-lg hover:bg-gradient-to-r hover:from-blue-50 hover:to-cyan-50 transition-all group" onClick={() => setIsMenuOpen(false)}>
+                <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Search className="w-5 h-5 text-white" />
+                </div>
+                <div className="flex-1">
+                  <div className="font-semibold text-gray-900 text-sm">Paid Search</div>
+                  <div className="text-xs text-gray-500">Google & Microsoft Ads</div>
+                </div>
+                <ArrowRight className="w-4 h-4 text-gray-400" />
               </Link>
-              <Link href="/services/paid-social" className="block pl-4 text-sm font-medium text-gray-700 hover:text-pink-600" onClick={() => setIsMenuOpen(false)}>
-                Paid Social
+              <Link href="/services/paid-social" className="flex items-center gap-3 p-3 rounded-lg hover:bg-gradient-to-r hover:from-purple-50 hover:to-pink-50 transition-all group" onClick={() => setIsMenuOpen(false)}>
+                <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Share2 className="w-5 h-5 text-white" />
+                </div>
+                <div className="flex-1">
+                  <div className="font-semibold text-gray-900 text-sm">Paid Social</div>
+                  <div className="text-xs text-gray-500">Meta, TikTok, LinkedIn</div>
+                </div>
+                <ArrowRight className="w-4 h-4 text-gray-400" />
               </Link>
-              <Link href="/services/performance-creative" className="block pl-4 text-sm font-medium text-gray-700 hover:text-pink-600" onClick={() => setIsMenuOpen(false)}>
-                Performance Creative
+              <Link href="/services/performance-creative" className="flex items-center gap-3 p-3 rounded-lg hover:bg-gradient-to-r hover:from-rose-50 hover:to-orange-50 transition-all group" onClick={() => setIsMenuOpen(false)}>
+                <div className="w-10 h-10 bg-gradient-to-br from-rose-500 to-orange-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Zap className="w-5 h-5 text-white" />
+                </div>
+                <div className="flex-1">
+                  <div className="font-semibold text-gray-900 text-sm">Performance Creative</div>
+                  <div className="text-xs text-gray-500">Award-winning creative</div>
+                </div>
+                <ArrowRight className="w-4 h-4 text-gray-400" />
               </Link>
-              <Link href="/services/amazon-ads" className="block pl-4 text-sm font-medium text-gray-700 hover:text-pink-600" onClick={() => setIsMenuOpen(false)}>
-                Amazon Ads
+              <Link href="/services/amazon-ads" className="flex items-center gap-3 p-3 rounded-lg hover:bg-gradient-to-r hover:from-yellow-50 hover:to-orange-50 transition-all group" onClick={() => setIsMenuOpen(false)}>
+                <div className="w-10 h-10 bg-gradient-to-br from-yellow-500 to-orange-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <ShoppingCart className="w-5 h-5 text-white" />
+                </div>
+                <div className="flex-1">
+                  <div className="font-semibold text-gray-900 text-sm">Amazon Ads</div>
+                  <div className="text-xs text-gray-500">Amazon growth experts</div>
+                </div>
+                <ArrowRight className="w-4 h-4 text-gray-400" />
               </Link>
-              <Link href="/services/seo" className="block pl-4 text-sm font-medium text-gray-700 hover:text-pink-600" onClick={() => setIsMenuOpen(false)}>
-                SEO
+              <Link href="/services/seo" className="flex items-center gap-3 p-3 rounded-lg hover:bg-gradient-to-r hover:from-green-50 hover:to-emerald-50 transition-all group" onClick={() => setIsMenuOpen(false)}>
+                <div className="w-10 h-10 bg-gradient-to-br from-green-500 to-emerald-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Globe className="w-5 h-5 text-white" />
+                </div>
+                <div className="flex-1">
+                  <div className="font-semibold text-gray-900 text-sm">SEO</div>
+                  <div className="text-xs text-gray-500">AI-driven SEO strategy</div>
+                </div>
+                <ArrowRight className="w-4 h-4 text-gray-400" />
               </Link>
-              <Link href="/services/hubspot" className="block pl-4 text-sm font-medium text-gray-700 hover:text-pink-600" onClick={() => setIsMenuOpen(false)}>
-                HubSpot
+              <Link href="/services/hubspot" className="flex items-center gap-3 p-3 rounded-lg hover:bg-gradient-to-r hover:from-orange-50 hover:to-red-50 transition-all group" onClick={() => setIsMenuOpen(false)}>
+                <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Settings className="w-5 h-5 text-white" />
+                </div>
+                <div className="flex-1">
+                  <div className="font-semibold text-gray-900 text-sm">HubSpot</div>
+                  <div className="text-xs text-gray-500">CRM & automation</div>
+                </div>
+                <ArrowRight className="w-4 h-4 text-gray-400" />
               </Link>
-              <a href="#services" className="block pl-4 text-sm font-medium text-gray-700 hover:text-pink-600" onClick={() => setIsMenuOpen(false)}>
-                All Services
-              </a>
             </div>
             <a href="#industries" className="block text-sm font-medium text-gray-700 hover:text-pink-600" onClick={() => setIsMenuOpen(false)}>
               Industries
