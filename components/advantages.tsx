@@ -35,7 +35,7 @@ const advantages = [
     icon: ShieldCheck,
     title: 'Full Transparency',
     description: 'Earn trust through clear reporting and open communication.',
-    gradient: 'from-purple-500 to-pink-500',
+    gradient: 'from-purple-500 to-indigo-500',
   },
   {
     icon: Brain,
@@ -47,7 +47,7 @@ const advantages = [
     icon: Users,
     title: 'Senior Expertise Only',
     description: 'You talk directly to experienced strategists who own your success.',
-    gradient: 'from-rose-500 to-pink-500',
+    gradient: 'from-indigo-500 to-blue-500',
   },
 ]
 
@@ -90,8 +90,8 @@ export default function Advantages() {
   return (
     <section ref={sectionRef} className="relative py-20 sm:py-28 overflow-hidden">
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-pink-50/50 via-purple-50/30 to-blue-50/50"></div>
-      <div className="absolute top-20 right-10 w-72 h-72 bg-gradient-to-br from-pink-300/20 to-transparent rounded-full blur-3xl animate-float"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-indigo-50/50 via-purple-50/30 to-blue-50/50"></div>
+      <div className="absolute top-20 right-10 w-72 h-72 bg-gradient-to-br from-indigo-300/20 to-transparent rounded-full blur-3xl animate-float"></div>
       <div className="absolute bottom-20 left-10 w-72 h-72 bg-gradient-to-tr from-blue-300/20 to-transparent rounded-full blur-3xl"></div>
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -108,7 +108,7 @@ export default function Advantages() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
             </div>
             {/* Decorative element */}
-            <div className="absolute -top-6 -left-6 w-32 h-32 bg-gradient-to-br from-purple-400/30 to-pink-400/30 rounded-2xl blur-2xl -z-10"></div>
+            <div className="absolute -top-6 -left-6 w-32 h-32 bg-gradient-to-br from-purple-400/30 to-indigo-400/30 rounded-2xl blur-2xl -z-10"></div>
           </div>
 
           {/* Right: Content */}
@@ -120,7 +120,7 @@ export default function Advantages() {
               You get experienced strategists, channel pros and creative people who feel like they sit right next to your team.
             </p>
             <div className="flex items-center gap-3 text-gray-700">
-              <Users className="w-6 h-6 text-pink-500" />
+              <Users className="w-6 h-6 text-[#111a42]" />
               <span className="font-medium">Senior Strategists & Channel Pros</span>
             </div>
           </div>

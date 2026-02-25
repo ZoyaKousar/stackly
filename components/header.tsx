@@ -18,16 +18,16 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200 shadow-sm">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-gradient-to-br from-pink-500 to-rose-500 rounded-lg flex items-center justify-center text-white font-bold shadow-md">
+          <div className="w-8 h-8 bg-[#111a42] rounded-lg flex items-center justify-center text-white font-bold shadow-md">
             S
           </div>
-          <span className="text-xl font-bold bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent hidden sm:inline">Stackly</span>
+          <span className="text-xl font-bold text-[#111a42] hidden sm:inline">Stackly</span>
         </div>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8">
           <DropdownMenu>
-            <DropdownMenuTrigger className="text-sm font-medium text-gray-700 hover:text-pink-600 transition flex items-center gap-1 outline-none focus:outline-none">
+            <DropdownMenuTrigger className="text-sm font-medium text-gray-700 hover:text-[#111a42] transition flex items-center gap-1 outline-none focus:outline-none">
               Services
               <ChevronDown className="w-4 h-4 transition-transform group-data-[state=open]:rotate-180" />
             </DropdownMenuTrigger>
@@ -46,8 +46,8 @@ export default function Header() {
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild className="p-0">
-                  <Link href="/services/paid-social" className="flex items-center gap-3 p-3 rounded-lg hover:bg-gradient-to-r hover:from-purple-50 hover:to-pink-50 transition-all group cursor-pointer">
-                    <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                  <Link href="/services/paid-social" className="flex items-center gap-3 p-3 rounded-lg hover:bg-gradient-to-r hover:from-purple-50 hover:to-indigo-50 transition-all group cursor-pointer">
+                    <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-indigo-500 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
                       <Share2 className="w-5 h-5 text-white" />
                     </div>
                     <div className="flex-1 min-w-0">
@@ -58,15 +58,15 @@ export default function Header() {
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild className="p-0">
-                  <Link href="/services/performance-creative" className="flex items-center gap-3 p-3 rounded-lg hover:bg-gradient-to-r hover:from-rose-50 hover:to-orange-50 transition-all group cursor-pointer">
-                    <div className="w-10 h-10 bg-gradient-to-br from-rose-500 to-orange-500 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                  <Link href="/services/performance-creative" className="flex items-center gap-3 p-3 rounded-lg hover:bg-gradient-to-r hover:from-orange-50 hover:to-amber-50 transition-all group cursor-pointer">
+                    <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-amber-500 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
                       <Zap className="w-5 h-5 text-white" />
                     </div>
                     <div className="flex-1 min-w-0">
-                      <div className="font-semibold text-gray-900 group-hover:text-rose-600 transition-colors">Performance Creative</div>
+                      <div className="font-semibold text-gray-900 group-hover:text-orange-600 transition-colors">Performance Creative</div>
                       <div className="text-xs text-gray-500 truncate">Award-winning creative</div>
                     </div>
-                    <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-rose-600 opacity-0 group-hover:opacity-100 transition-all" />
+                    <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-orange-600 opacity-0 group-hover:opacity-100 transition-all" />
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild className="p-0">
@@ -108,10 +108,10 @@ export default function Header() {
               </div>
             </DropdownMenuContent>
           </DropdownMenu>
-          <a href="#industries" className="text-sm font-medium text-gray-700 hover:text-pink-600 transition">
+          <a href="#industries" className="text-sm font-medium text-gray-700 hover:text-[#111a42] transition">
             Industries
           </a>
-          <a href="#faq" className="text-sm font-medium text-gray-700 hover:text-pink-600 transition">
+          <a href="#faq" className="text-sm font-medium text-gray-700 hover:text-[#111a42] transition">
             FAQ
           </a>
         </div>
@@ -121,11 +121,11 @@ export default function Header() {
           <Button
             variant="outline"
             size="sm"
-            className="border-gray-300 text-gray-700 hover:bg-gray-50 hover:border-pink-400 hover:text-pink-600"
+            className="border-gray-300 text-gray-700 hover:bg-gray-50 hover:border-[#111a42] hover:text-[#111a42]"
           >
             Contact
           </Button>
-          <Button size="sm" className="bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-600 hover:to-rose-600 text-white border-0">Book a Call</Button>
+          <Button size="sm" className="bg-[#111a42] hover:bg-[#0d1533] text-white border-0">Book a Call</Button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -154,8 +154,8 @@ export default function Header() {
                 </div>
                 <ArrowRight className="w-4 h-4 text-gray-400" />
               </Link>
-              <Link href="/services/paid-social" className="flex items-center gap-3 p-3 rounded-lg hover:bg-gradient-to-r hover:from-purple-50 hover:to-pink-50 transition-all group" onClick={() => setIsMenuOpen(false)}>
-                <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center flex-shrink-0">
+              <Link href="/services/paid-social" className="flex items-center gap-3 p-3 rounded-lg hover:bg-gradient-to-r hover:from-purple-50 hover:to-indigo-50 transition-all group" onClick={() => setIsMenuOpen(false)}>
+                <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-indigo-500 rounded-lg flex items-center justify-center flex-shrink-0">
                   <Share2 className="w-5 h-5 text-white" />
                 </div>
                 <div className="flex-1">
@@ -164,8 +164,8 @@ export default function Header() {
                 </div>
                 <ArrowRight className="w-4 h-4 text-gray-400" />
               </Link>
-              <Link href="/services/performance-creative" className="flex items-center gap-3 p-3 rounded-lg hover:bg-gradient-to-r hover:from-rose-50 hover:to-orange-50 transition-all group" onClick={() => setIsMenuOpen(false)}>
-                <div className="w-10 h-10 bg-gradient-to-br from-rose-500 to-orange-500 rounded-lg flex items-center justify-center flex-shrink-0">
+              <Link href="/services/performance-creative" className="flex items-center gap-3 p-3 rounded-lg hover:bg-gradient-to-r hover:from-orange-50 hover:to-amber-50 transition-all group" onClick={() => setIsMenuOpen(false)}>
+                <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-amber-500 rounded-lg flex items-center justify-center flex-shrink-0">
                   <Zap className="w-5 h-5 text-white" />
                 </div>
                 <div className="flex-1">
@@ -205,10 +205,10 @@ export default function Header() {
                 <ArrowRight className="w-4 h-4 text-gray-400" />
               </Link>
             </div>
-            <a href="#industries" className="block text-sm font-medium text-gray-700 hover:text-pink-600" onClick={() => setIsMenuOpen(false)}>
+            <a href="#industries" className="block text-sm font-medium text-gray-700 hover:text-[#111a42]" onClick={() => setIsMenuOpen(false)}>
               Industries
             </a>
-            <a href="#faq" className="block text-sm font-medium text-gray-700 hover:text-pink-600" onClick={() => setIsMenuOpen(false)}>
+            <a href="#faq" className="block text-sm font-medium text-gray-700 hover:text-[#111a42]" onClick={() => setIsMenuOpen(false)}>
               FAQ
             </a>
             <div className="flex flex-col gap-2 pt-2">

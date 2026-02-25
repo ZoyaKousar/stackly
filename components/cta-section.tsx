@@ -28,7 +28,7 @@ export default function CTA() {
   return (
     <section ref={sectionRef} className="relative py-20 sm:py-32 overflow-hidden">
       {/* Gradient Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-pink-500 via-rose-500 to-orange-500"></div>
+      <div className="absolute inset-0 bg-[#111a42]"></div>
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.1),transparent_50%)]"></div>
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(255,255,255,0.1),transparent_50%)]"></div>
       
@@ -40,7 +40,7 @@ export default function CTA() {
         {/* Image/Icon Section */}
         <div className={`flex items-center justify-center mb-8 ${isVisible ? 'animate-scale-in' : 'opacity-0'}`}>
           <div className="w-32 h-32 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center shadow-2xl animate-float">
-            <Phone className="w-16 h-16 text-white" />
+            <Phone className="w-16 h-16 text-[#2aaaea]" />
           </div>
         </div>
 
@@ -53,21 +53,15 @@ export default function CTA() {
           </p>
         </div>
 
-        <div className={`flex flex-col sm:flex-row gap-4 justify-center pt-4 ${
+        <div className={`flex justify-center pt-4 ${
           isVisible ? 'animate-fade-in-up animation-delay-300' : 'opacity-0'
         }`}>
           <Button
             size="lg"
-            className="text-base bg-white text-pink-600 hover:bg-gray-100 shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1"
+            className="text-base bg-gradient-to-r from-[#2aaaea] via-[#2aaaea] to-[#2aaaea] hover:from-[#2599d4] hover:via-[#2599d4] hover:to-[#2599d4] text-white border-0 shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 rounded-full px-8 py-6 font-semibold group relative overflow-hidden"
           >
-            Book a Call
-          </Button>
-          <Button
-            size="lg"
-            variant="outline"
-            className="text-base border-2 border-white text-white hover:bg-white/10 backdrop-blur-sm"
-          >
-            View Our Work
+            <span className="relative z-10">Book a Call</span>
+            <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
           </Button>
         </div>
       </div>

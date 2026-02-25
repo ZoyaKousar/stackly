@@ -18,7 +18,7 @@ const caseStudies = [
     title: 'ROAS for a Luxury Spa Brand',
     description: 'Smart cross-channel work doubled return on ad spend and pushed click-through rate up 25%.',
     industry: 'Beauty & Personal Care',
-    gradient: 'from-pink-500 to-rose-500',
+    gradient: 'from-[#111a42] to-[#1a2555]',
   },
   {
     metric: '800%',
@@ -53,9 +53,9 @@ export default function CaseStudies() {
   return (
     <section ref={sectionRef} className="relative py-20 sm:py-28 overflow-hidden">
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-blue-50/50 via-purple-50/30 to-pink-50/50"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-blue-50/50 via-purple-50/30 to-indigo-50/50"></div>
       <div className="absolute top-20 left-20 w-96 h-96 bg-gradient-to-br from-blue-300/20 to-transparent rounded-full blur-3xl animate-float"></div>
-      <div className="absolute bottom-20 right-20 w-96 h-96 bg-gradient-to-tr from-pink-300/20 to-transparent rounded-full blur-3xl"></div>
+      <div className="absolute bottom-20 right-20 w-96 h-96 bg-gradient-to-tr from-indigo-300/20 to-transparent rounded-full blur-3xl"></div>
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -101,7 +101,7 @@ export default function CaseStudies() {
                 <div className={`text-4xl sm:text-5xl font-bold bg-gradient-to-r ${study.gradient} bg-clip-text text-transparent mb-2`}>
                   {study.metric}
                 </div>
-                <div className="inline-block px-3 py-1 bg-gradient-to-r from-pink-50 to-rose-50 border border-pink-200 rounded-lg text-xs font-medium text-pink-700">
+                <div className="inline-block px-3 py-1 bg-gradient-to-r from-indigo-50 to-blue-50 border border-indigo-200 rounded-lg text-xs font-medium text-[#111a42]">
                   {study.industry}
                 </div>
               </div>
@@ -111,7 +111,7 @@ export default function CaseStudies() {
               <p className="text-gray-600 leading-relaxed mb-4">
                 {study.description}
               </p>
-              <button className="text-pink-600 font-medium text-sm flex items-center gap-2 hover:gap-3 transition-all group">
+              <button className="text-[#111a42] font-medium text-sm flex items-center gap-2 hover:gap-3 transition-all group">
                 View Case Study
                 <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
               </button>
