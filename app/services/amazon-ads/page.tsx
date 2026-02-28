@@ -12,15 +12,16 @@ export default function AmazonAdsPage() {
       
       {/* Hero Section */}
       <section className="relative pt-24 pb-16 sm:pt-28 sm:pb-20 lg:pt-32 lg:pb-24 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-pink-50 to-purple-50"></div>
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(236,72,153,0.1),transparent_50%)]"></div>
+        <div className="absolute inset-0 bg-[#111a42]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.05),transparent_50%)]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(59,130,246,0.1),transparent_50%)]"></div>
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto space-y-6">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 leading-tight">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight">
               The Amazon Ads Agency That Will Ignite Your Growth
             </h1>
-            <p className="text-xl sm:text-2xl text-gray-600">
+            <p className="text-xl sm:text-2xl text-white/80">
               Ready to find out what's really possible?
             </p>
           </div>
@@ -28,7 +29,7 @@ export default function AmazonAdsPage() {
       </section>
 
       {/* Services Grid */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-pink-50/30">
+      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-indigo-50/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Management */}
@@ -39,13 +40,13 @@ export default function AmazonAdsPage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Management</h3>
               <p className="text-gray-600 mb-4">We know Amazon inside out. Let us guide you and open up real growth for your brand.</p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Dedicated Account Manager</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Full Support Team</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Daily / Weekly Account Monitoring</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Email Responses Within 24 Business Hours</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Product-First Campaign Creation</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Keyword Research & Harvesting</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Algorithmic Keyword Bidding</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Dedicated Account Manager</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Full Support Team</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Daily / Weekly Account Monitoring</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Email Responses Within 24 Business Hours</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Product-First Campaign Creation</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Keyword Research & Harvesting</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Algorithmic Keyword Bidding</li>
               </ul>
             </Card>
 
@@ -57,13 +58,13 @@ export default function AmazonAdsPage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Technology</h3>
               <p className="text-gray-600 mb-4">We run everything through Teikametrics' AI Flywheel system – top-level Amazon optimization as an official partner.</p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Automated Keyword Actions</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Algorithmic Hourly Bidding</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Goal-Based Campaign Creation</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Amazon Benchmarks</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Hourly Performance Tracking</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Keywords + Targets Reports</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Campaign Data Insights</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Automated Keyword Actions</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Algorithmic Hourly Bidding</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Goal-Based Campaign Creation</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Amazon Benchmarks</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Hourly Performance Tracking</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Keywords + Targets Reports</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Campaign Data Insights</li>
               </ul>
             </Card>
 
@@ -75,27 +76,27 @@ export default function AmazonAdsPage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Reporting</h3>
               <p className="text-gray-600 mb-4">Straightforward updates so you always know what's happening and stay in the loop.</p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Bi-Weekly Strategy Meetings</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Live Metrics Dashboard</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Quarterly Business Reviews (QBRs)</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Ad-Hoc Reporting</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Business-Level Insights</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Bi-Weekly Strategy Meetings</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Live Metrics Dashboard</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Quarterly Business Reviews (QBRs)</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Ad-Hoc Reporting</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Business-Level Insights</li>
               </ul>
             </Card>
 
             {/* Planning */}
             <Card className="p-8 bg-white/90 backdrop-blur-sm hover:shadow-xl transition-all">
-              <div className="w-16 h-16 mb-6 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center">
+              <div className="w-16 h-16 mb-6 bg-gradient-to-br from-[#2aaaea] to-cyan-400 rounded-xl flex items-center justify-center">
                 <Target className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Planning</h3>
               <p className="text-gray-600 mb-4">We look hard at your products, competitors, customers and trends to put together a plan that actually wins on Amazon.</p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Product Research</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Incrementality Testing</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Budget Pacing & Forecasting</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Trend & Market Share Analysis</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Specialized Seasonal Strategies</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Product Research</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Incrementality Testing</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Budget Pacing & Forecasting</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Trend & Market Share Analysis</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Specialized Seasonal Strategies</li>
               </ul>
             </Card>
           </div>
@@ -103,15 +104,16 @@ export default function AmazonAdsPage() {
       </section>
 
       {/* Free Audit CTA */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-br from-pink-500 via-rose-500 to-orange-500">
+      <section className="relative py-16 sm:py-20 bg-[#111a42]">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.1),transparent_50%)]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(59,130,246,0.1),transparent_50%)]"></div>
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
             Want Your Free Amazon Ads Audit?
           </h2>
           <Button 
             size="lg" 
-            className="bg-white text-pink-600 hover:bg-gray-100 text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all"
+            className="bg-gradient-to-r from-[#2aaaea] via-[#2aaaea] to-[#2aaaea] hover:from-[#2599d4] hover:via-[#2599d4] hover:to-[#2599d4] text-white border-0 shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 rounded-full px-8 py-6 font-semibold"
           >
             Yes Please
           </Button>
@@ -128,7 +130,7 @@ export default function AmazonAdsPage() {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <Card className="p-8 text-center border-2 border-pink-200 hover:border-pink-400 transition-colors">
+            <Card className="p-8 text-center border-2 border-blue-200 hover:border-[#2aaaea] transition-colors">
               <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-green-500 to-emerald-500 rounded-full flex items-center justify-center">
                 <Check className="w-8 h-8 text-white" />
               </div>
@@ -136,7 +138,7 @@ export default function AmazonAdsPage() {
               <p className="text-gray-600">Start with zero upfront cost.</p>
             </Card>
             
-            <Card className="p-8 text-center border-2 border-pink-200 hover:border-pink-400 transition-colors">
+            <Card className="p-8 text-center border-2 border-blue-200 hover:border-[#2aaaea] transition-colors">
               <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full flex items-center justify-center">
                 <Shield className="w-8 h-8 text-white" />
               </div>
@@ -144,8 +146,8 @@ export default function AmazonAdsPage() {
               <p className="text-gray-600">Full ownership right from the start.</p>
             </Card>
             
-            <Card className="p-8 text-center border-2 border-pink-200 hover:border-pink-400 transition-colors">
-              <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-pink-500 to-rose-500 rounded-full flex items-center justify-center">
+            <Card className="p-8 text-center border-2 border-blue-200 hover:border-[#2aaaea] transition-colors">
+              <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-[#2aaaea] to-cyan-400 rounded-full flex items-center justify-center">
                 <Users className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Dedicated Team</h3>
@@ -156,7 +158,7 @@ export default function AmazonAdsPage() {
       </section>
 
       {/* Timeline Section */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-pink-50/30">
+      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-indigo-50/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
@@ -167,7 +169,7 @@ export default function AmazonAdsPage() {
           
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="p-8 bg-white/90 backdrop-blur-sm hover:shadow-xl transition-all">
-              <div className="text-5xl font-bold bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent mb-2">
+              <div className="text-5xl font-bold bg-gradient-to-r from-[#2aaaea] to-cyan-400 bg-clip-text text-transparent mb-2">
                 0-3
               </div>
               <div className="text-xl font-semibold text-gray-900 mb-4">Months</div>
@@ -208,11 +210,11 @@ export default function AmazonAdsPage() {
             </p>
           </div>
           
-          <Card className="p-8 md:p-12 bg-gradient-to-br from-pink-50 to-blue-50 border-2 border-pink-200">
+          <Card className="p-8 md:p-12 bg-gradient-to-br from-slate-50 to-blue-50 border-2 border-blue-200">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <div className="inline-block px-4 py-2 bg-white rounded-full mb-6">
-                  <span className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent">Black Garlic</span>
+                  <span className="text-2xl font-bold bg-gradient-to-r from-[#2aaaea] to-cyan-400 bg-clip-text text-transparent">Black Garlic</span>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">About the Brand</h3>
                 <p className="text-gray-600 mb-6">Black Garlic North America wanted to blow up their Amazon sales and visibility.</p>
@@ -226,11 +228,11 @@ export default function AmazonAdsPage() {
                     <h4 className="font-semibold text-gray-900 mb-2">The Solution</h4>
                     <p className="text-gray-600">Targeted campaigns built on solid keyword and competitor work.</p>
                   </div>
-                  <div className="pt-4 border-t border-pink-200">
+                  <div className="pt-4 border-t border-blue-200">
                     <h4 className="font-semibold text-gray-900 mb-2">Business Impact</h4>
                     <div className="grid grid-cols-1 gap-4">
                       <div>
-                        <div className="text-3xl font-bold bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent">67%</div>
+                        <div className="text-3xl font-bold bg-gradient-to-r from-[#2aaaea] to-cyan-400 bg-clip-text text-transparent">67%</div>
                         <p className="text-sm text-gray-600">sales increase on Amazon</p>
                       </div>
                       <p className="text-gray-600 mt-2">Much better rankings. One of their biggest revenue months.</p>
@@ -253,7 +255,7 @@ export default function AmazonAdsPage() {
       </section>
 
       {/* Other Services */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-pink-50/30">
+      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-indigo-50/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
@@ -271,7 +273,7 @@ export default function AmazonAdsPage() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Paid Search</h3>
               <p className="text-gray-600 mb-4">Super targeted growth</p>
-              <Link href="/services/paid-search" className="flex items-center text-pink-600 font-medium">
+              <Link href="/services/paid-search" className="flex items-center text-[#2aaaea] font-medium">
                 Learn More <ArrowRight className="w-4 h-4 ml-2" />
               </Link>
             </Card>
@@ -282,18 +284,18 @@ export default function AmazonAdsPage() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">SEO</h3>
               <p className="text-gray-600 mb-4">Smart ways to get found</p>
-              <div className="flex items-center text-pink-600 font-medium">
+              <div className="flex items-center text-[#2aaaea] font-medium">
                 Learn More <ArrowRight className="w-4 h-4 ml-2" />
               </div>
             </Card>
             
             <Card className="p-8 bg-white/90 backdrop-blur-sm hover:shadow-xl transition-all group cursor-pointer">
-              <div className="w-16 h-16 mb-6 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
+              <div className="w-16 h-16 mb-6 bg-gradient-to-br from-[#2aaaea] to-cyan-400 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
                 <Zap className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Performance Creative</h3>
               <p className="text-gray-600 mb-4">In-house team that grabs attention and gets sales</p>
-              <Link href="/services/performance-creative" className="flex items-center text-pink-600 font-medium">
+              <Link href="/services/performance-creative" className="flex items-center text-[#2aaaea] font-medium">
                 Learn More <ArrowRight className="w-4 h-4 ml-2" />
               </Link>
             </Card>
@@ -302,15 +304,16 @@ export default function AmazonAdsPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-br from-pink-500 via-rose-500 to-orange-500">
+      <section className="relative py-16 sm:py-20 bg-[#111a42]">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.1),transparent_50%)]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(59,130,246,0.1),transparent_50%)]"></div>
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
             Let's Talk About Your Goals.
           </h2>
           <Button 
             size="lg" 
-            className="bg-white text-pink-600 hover:bg-gray-100 text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all"
+            className="bg-gradient-to-r from-[#2aaaea] via-[#2aaaea] to-[#2aaaea] hover:from-[#2599d4] hover:via-[#2599d4] hover:to-[#2599d4] text-white border-0 shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 rounded-full px-8 py-6 font-semibold"
           >
             BOOK A CALL
           </Button>
@@ -330,7 +333,7 @@ export default function AmazonAdsPage() {
           </div>
           
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <Card className="p-8 text-center border-2 border-pink-200 hover:border-pink-400 transition-colors">
+            <Card className="p-8 text-center border-2 border-blue-200 hover:border-[#2aaaea] transition-colors">
               <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-blue-500 to-purple-500 rounded-2xl flex items-center justify-center">
                 <TrendingUp className="w-10 h-10 text-white" />
               </div>
@@ -338,8 +341,8 @@ export default function AmazonAdsPage() {
               <p className="text-gray-600">Perfect for growing businesses ready to scale</p>
             </Card>
             
-            <Card className="p-8 text-center border-2 border-pink-200 hover:border-pink-400 transition-colors">
-              <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-pink-500 to-rose-500 rounded-2xl flex items-center justify-center">
+            <Card className="p-8 text-center border-2 border-blue-200 hover:border-[#2aaaea] transition-colors">
+              <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-[#2aaaea] to-cyan-400 rounded-2xl flex items-center justify-center">
                 <Shield className="w-10 h-10 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Enterprise Business</h3>
@@ -350,7 +353,7 @@ export default function AmazonAdsPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-pink-50/30">
+      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-indigo-50/30">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
@@ -399,8 +402,9 @@ export default function AmazonAdsPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-br from-pink-500 via-rose-500 to-orange-500">
+      <section className="relative py-16 sm:py-20 bg-[#111a42]">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.1),transparent_50%)]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(59,130,246,0.1),transparent_50%)]"></div>
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
             See If We're the Right Team for You.
@@ -410,7 +414,7 @@ export default function AmazonAdsPage() {
           </p>
           <Button 
             size="lg" 
-            className="bg-white text-pink-600 hover:bg-gray-100 text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all"
+            className="bg-gradient-to-r from-[#2aaaea] via-[#2aaaea] to-[#2aaaea] hover:from-[#2599d4] hover:via-[#2599d4] hover:to-[#2599d4] text-white border-0 shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 rounded-full px-8 py-6 font-semibold"
           >
             Book a Call
           </Button>

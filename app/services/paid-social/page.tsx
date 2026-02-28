@@ -12,15 +12,16 @@ export default function PaidSocialPage() {
       
       {/* Hero Section */}
       <section className="relative pt-24 pb-16 sm:pt-28 sm:pb-20 lg:pt-32 lg:pb-24 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-pink-50 to-purple-50"></div>
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(236,72,153,0.1),transparent_50%)]"></div>
+        <div className="absolute inset-0 bg-[#111a42]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.05),transparent_50%)]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(59,130,246,0.1),transparent_50%)]"></div>
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto space-y-6">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 leading-tight">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight">
               Don't Just Like Your Paid Social – Actually Love It
             </h1>
-            <p className="text-xl sm:text-2xl text-gray-600">
+            <p className="text-xl sm:text-2xl text-white/80">
               We make it personal. One-size-fits-all never works anyway.
             </p>
           </div>
@@ -40,7 +41,7 @@ export default function PaidSocialPage() {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <Card className="p-8 text-center border-2 border-pink-200 hover:border-pink-400 transition-colors">
+            <Card className="p-8 text-center border-2 border-blue-200 hover:border-[#2aaaea] transition-colors">
               <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center">
                 <Share2 className="w-10 h-10 text-white" />
               </div>
@@ -48,15 +49,15 @@ export default function PaidSocialPage() {
               <p className="text-gray-600">Facebook + Instagram expertise</p>
             </Card>
             
-            <Card className="p-8 text-center border-2 border-pink-200 hover:border-pink-400 transition-colors">
-              <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-pink-500 to-rose-500 rounded-2xl flex items-center justify-center">
+            <Card className="p-8 text-center border-2 border-blue-200 hover:border-[#2aaaea] transition-colors">
+              <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-[#2aaaea] to-cyan-400 rounded-2xl flex items-center justify-center">
                 <Video className="w-10 h-10 text-white" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">TikTok Ads</h3>
               <p className="text-gray-600">Video-first platform mastery</p>
             </Card>
             
-            <Card className="p-8 text-center border-2 border-pink-200 hover:border-pink-400 transition-colors">
+            <Card className="p-8 text-center border-2 border-blue-200 hover:border-[#2aaaea] transition-colors">
               <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-indigo-500 to-purple-500 rounded-2xl flex items-center justify-center">
                 <Users className="w-10 h-10 text-white" />
               </div>
@@ -68,7 +69,7 @@ export default function PaidSocialPage() {
       </section>
 
       {/* Platforms Section */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-pink-50/30">
+      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-indigo-50/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
@@ -82,9 +83,9 @@ export default function PaidSocialPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
             {[
               { name: 'Meta (Facebook + Instagram)', icon: Share2, color: 'from-blue-500 to-blue-600' },
-              { name: 'TikTok', icon: Video, color: 'from-pink-500 to-rose-500' },
+              { name: 'TikTok', icon: Video, color: 'from-[#2aaaea] to-cyan-400' },
               { name: 'LinkedIn', icon: Users, color: 'from-indigo-500 to-purple-500' },
-              { name: 'Pinterest', icon: Heart, color: 'from-red-500 to-pink-500' },
+              { name: 'Pinterest', icon: Heart, color: 'from-[#2aaaea] to-cyan-400' },
               { name: 'Reddit', icon: Sparkles, color: 'from-orange-500 to-red-500' },
             ].map((platform, i) => {
               const Icon = platform.icon
@@ -107,18 +108,18 @@ export default function PaidSocialPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Strategic Planning */}
             <Card className="p-8 bg-white/90 backdrop-blur-sm hover:shadow-xl transition-all">
-              <div className="w-16 h-16 mb-6 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center">
+              <div className="w-16 h-16 mb-6 bg-gradient-to-br from-[#2aaaea] to-cyan-400 rounded-xl flex items-center justify-center">
                 <Target className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Strategic Planning</h3>
               <p className="text-gray-600 mb-4">Good campaigns don't start by accident. Our strategists really dig into your brand, what you want to achieve, your competitors and the market so we can hand you a clear custom plan – calendars, triggers, everything lined up to make your money go further.</p>
               <div className="text-sm font-semibold text-gray-900 mb-2">Decision-Making Triggers:</div>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Audience Research & Discovery</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Industry & Competitor Research</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Seasonal & Event Promotions</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Historical Performance Analysis</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Platform & Channel Recommendations</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Audience Research & Discovery</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Industry & Competitor Research</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Seasonal & Event Promotions</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Historical Performance Analysis</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Platform & Channel Recommendations</li>
               </ul>
             </Card>
 
@@ -130,13 +131,13 @@ export default function PaidSocialPage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Campaign Management</h3>
               <p className="text-gray-600 mb-4">Juggling ads on multiple platforms gets messy fast. We handle it all – daily checks, quick fixes, real-time tweaks – so your brand stays relevant and you can just sit back and watch things grow.</p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Dedicated Account Manager</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Full Support Team</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Daily / Weekly Account Reviews</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Email Responses Within 24 Business Hours</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Ad Copy Creation & A/B Testing</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Conversion & ROI Tracking</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Budget Pacing & Allocation Management</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Dedicated Account Manager</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Full Support Team</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Daily / Weekly Account Reviews</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Email Responses Within 24 Business Hours</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Ad Copy Creation & A/B Testing</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Conversion & ROI Tracking</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Budget Pacing & Allocation Management</li>
               </ul>
             </Card>
 
@@ -148,28 +149,28 @@ export default function PaidSocialPage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Audience Targeting</h3>
               <p className="text-gray-600 mb-4">It all comes down to knowing who you're actually talking to. We build smart, targeted audiences that connect, new people or loyal customers, we make it feel right.</p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Behavioral & Purchase Triggers</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Demographic Segmentation + Testing</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> A/B Audience Testing</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Custom-Tailored Messaging</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Full-Funnel Audiences: Awareness, Prospecting, Retargeting, Retention</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Behavioral & Purchase Triggers</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Demographic Segmentation + Testing</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> A/B Audience Testing</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Custom-Tailored Messaging</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Full-Funnel Audiences: Awareness, Prospecting, Retargeting, Retention</li>
               </ul>
             </Card>
 
             {/* Performance Creative */}
             <Card className="p-8 bg-white/90 backdrop-blur-sm hover:shadow-xl transition-all">
-              <div className="w-16 h-16 mb-6 bg-gradient-to-br from-rose-500 to-pink-500 rounded-xl flex items-center justify-center">
+              <div className="w-16 h-16 mb-6 bg-gradient-to-br from-[#2aaaea] to-cyan-400 rounded-xl flex items-center justify-center">
                 <Sparkles className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Performance Creative</h3>
               <p className="text-gray-600 mb-4">If the creative doesn't convert, nothing else matters. Our in-house crew takes your brand and goals and turns them into ads people actually stop for, researched, tested, improved until they work.</p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> In-House Creative Team</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Seamless Communication & Feedback</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Conversion-Rate-Optimized Landing Pages</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> A/B Creative Testing</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Static, Animated, Video & Carousel Formats</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Direct-Response Copywriting</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> In-House Creative Team</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Seamless Communication & Feedback</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Conversion-Rate-Optimized Landing Pages</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> A/B Creative Testing</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Static, Animated, Video & Carousel Formats</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Direct-Response Copywriting</li>
               </ul>
             </Card>
 
@@ -181,10 +182,10 @@ export default function PaidSocialPage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Advanced Technology & Tools</h3>
               <p className="text-gray-600 mb-4">We use the newest tools, AI insights and automation to get every last drop of performance out of your campaigns.</p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Ecommerce Feed Optimization</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Creative Collaboration & Approval Tools</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Landing Page Heatmaps & Session Recordings</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Live Real-Time Performance Dashboards</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Ecommerce Feed Optimization</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Creative Collaboration & Approval Tools</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Landing Page Heatmaps & Session Recordings</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Live Real-Time Performance Dashboards</li>
               </ul>
             </Card>
           </div>
@@ -192,15 +193,16 @@ export default function PaidSocialPage() {
       </section>
 
       {/* Free Audit CTA */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-br from-pink-500 via-rose-500 to-orange-500">
+      <section className="relative py-16 sm:py-20 bg-[#111a42]">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.1),transparent_50%)]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(59,130,246,0.1),transparent_50%)]"></div>
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
             Get Your Free Paid Social Audit Today
           </h2>
           <Button 
             size="lg" 
-            className="bg-white text-pink-600 hover:bg-gray-100 text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all"
+            className="bg-gradient-to-r from-[#2aaaea] via-[#2aaaea] to-[#2aaaea] hover:from-[#2599d4] hover:via-[#2599d4] hover:to-[#2599d4] text-white border-0 shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 rounded-full px-8 py-6 font-semibold"
           >
             Yes Please
           </Button>
@@ -217,7 +219,7 @@ export default function PaidSocialPage() {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <Card className="p-8 text-center border-2 border-pink-200 hover:border-pink-400 transition-colors">
+            <Card className="p-8 text-center border-2 border-blue-200 hover:border-[#2aaaea] transition-colors">
               <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-green-500 to-emerald-500 rounded-full flex items-center justify-center">
                 <Check className="w-8 h-8 text-white" />
               </div>
@@ -225,7 +227,7 @@ export default function PaidSocialPage() {
               <p className="text-gray-600">Jump in with zero upfront cost.</p>
             </Card>
             
-            <Card className="p-8 text-center border-2 border-pink-200 hover:border-pink-400 transition-colors">
+            <Card className="p-8 text-center border-2 border-blue-200 hover:border-[#2aaaea] transition-colors">
               <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full flex items-center justify-center">
                 <Shield className="w-8 h-8 text-white" />
               </div>
@@ -233,8 +235,8 @@ export default function PaidSocialPage() {
               <p className="text-gray-600">Accounts, ads, data – all yours 100%.</p>
             </Card>
             
-            <Card className="p-8 text-center border-2 border-pink-200 hover:border-pink-400 transition-colors">
-              <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-pink-500 to-rose-500 rounded-full flex items-center justify-center">
+            <Card className="p-8 text-center border-2 border-blue-200 hover:border-[#2aaaea] transition-colors">
+              <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-[#2aaaea] to-cyan-400 rounded-full flex items-center justify-center">
                 <Users className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Dedicated Team</h3>
@@ -245,7 +247,7 @@ export default function PaidSocialPage() {
       </section>
 
       {/* Timeline Section */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-pink-50/30">
+      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-indigo-50/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
@@ -256,7 +258,7 @@ export default function PaidSocialPage() {
           
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="p-8 bg-white/90 backdrop-blur-sm hover:shadow-xl transition-all">
-              <div className="text-5xl font-bold bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent mb-2">
+              <div className="text-5xl font-bold bg-gradient-to-r from-[#2aaaea] to-cyan-400 bg-clip-text text-transparent mb-2">
                 0-3
               </div>
               <div className="text-xl font-semibold text-gray-900 mb-4">Months</div>
@@ -297,11 +299,11 @@ export default function PaidSocialPage() {
             </p>
           </div>
           
-          <Card className="p-8 md:p-12 bg-gradient-to-br from-pink-50 to-blue-50 border-2 border-pink-200">
+          <Card className="p-8 md:p-12 bg-gradient-to-br from-slate-50 to-blue-50 border-2 border-blue-200">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <div className="inline-block px-4 py-2 bg-white rounded-full mb-6">
-                  <span className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent">MISSHA</span>
+                  <span className="text-2xl font-bold bg-gradient-to-r from-[#2aaaea] to-cyan-400 bg-clip-text text-transparent">MISSHA</span>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">About the Brand</h3>
                 <p className="text-gray-600 mb-6">Big Korean beauty brand Missha wanted to really break through in the crowded US market.</p>
@@ -315,15 +317,15 @@ export default function PaidSocialPage() {
                     <h4 className="font-semibold text-gray-900 mb-2">The Solution</h4>
                     <p className="text-gray-600">Fresh catalog ads + smart holiday pushes on Meta.</p>
                   </div>
-                  <div className="pt-4 border-t border-pink-200">
+                  <div className="pt-4 border-t border-blue-200">
                     <h4 className="font-semibold text-gray-900 mb-2">Business Impact</h4>
                     <div className="grid grid-cols-2 gap-4">
                       <div>
-                        <div className="text-3xl font-bold bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent">$103,310</div>
+                        <div className="text-3xl font-bold bg-gradient-to-r from-[#2aaaea] to-cyan-400 bg-clip-text text-transparent">$103,310</div>
                         <p className="text-sm text-gray-600">revenue generated</p>
                       </div>
                       <div>
-                        <div className="text-3xl font-bold bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent">5.38×</div>
+                        <div className="text-3xl font-bold bg-gradient-to-r from-[#2aaaea] to-cyan-400 bg-clip-text text-transparent">5.38×</div>
                         <p className="text-sm text-gray-600">ROAS</p>
                       </div>
                     </div>
@@ -332,7 +334,7 @@ export default function PaidSocialPage() {
                 </div>
               </div>
               <div className="relative h-96 rounded-2xl overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-pink-400 via-rose-400 to-orange-400"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-[#111a42] via-[#2aaaea] to-cyan-400"></div>
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center text-white p-8">
                     <Share2 className="w-24 h-24 mx-auto mb-4 opacity-50" />
@@ -346,7 +348,7 @@ export default function PaidSocialPage() {
       </section>
 
       {/* Other Services */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-pink-50/30">
+      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-indigo-50/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
@@ -359,12 +361,12 @@ export default function PaidSocialPage() {
           
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="p-8 bg-white/90 backdrop-blur-sm hover:shadow-xl transition-all group cursor-pointer">
-              <div className="w-16 h-16 mb-6 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
+              <div className="w-16 h-16 mb-6 bg-gradient-to-br from-[#2aaaea] to-cyan-400 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
                 <Sparkles className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Performance Creative</h3>
               <p className="text-gray-600 mb-4">In-house crew that grabs attention and gets sales</p>
-              <div className="flex items-center text-pink-600 font-medium">
+              <div className="flex items-center text-[#2aaaea] font-medium">
                 Learn More <ArrowRight className="w-4 h-4 ml-2" />
               </div>
             </Card>
@@ -375,7 +377,7 @@ export default function PaidSocialPage() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Paid Search</h3>
               <p className="text-gray-600 mb-4">Super targeted growth</p>
-              <Link href="/services/paid-search" className="flex items-center text-pink-600 font-medium">
+              <Link href="/services/paid-search" className="flex items-center text-[#2aaaea] font-medium">
                 Learn More <ArrowRight className="w-4 h-4 ml-2" />
               </Link>
             </Card>
@@ -386,7 +388,7 @@ export default function PaidSocialPage() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Amazon Ads</h3>
               <p className="text-gray-600 mb-4">Custom plans that send sales through the roof</p>
-              <div className="flex items-center text-pink-600 font-medium">
+              <div className="flex items-center text-[#2aaaea] font-medium">
                 Learn More <ArrowRight className="w-4 h-4 ml-2" />
               </div>
             </Card>
@@ -395,15 +397,16 @@ export default function PaidSocialPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-br from-pink-500 via-rose-500 to-orange-500">
+      <section className="relative py-16 sm:py-20 bg-[#111a42]">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.1),transparent_50%)]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(59,130,246,0.1),transparent_50%)]"></div>
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
             Let's Talk About Your Goals.
           </h2>
           <Button 
             size="lg" 
-            className="bg-white text-pink-600 hover:bg-gray-100 text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all"
+            className="bg-gradient-to-r from-[#2aaaea] via-[#2aaaea] to-[#2aaaea] hover:from-[#2599d4] hover:via-[#2599d4] hover:to-[#2599d4] text-white border-0 shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 rounded-full px-8 py-6 font-semibold"
           >
             BOOK A CALL
           </Button>
@@ -423,7 +426,7 @@ export default function PaidSocialPage() {
           </div>
           
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <Card className="p-8 text-center border-2 border-pink-200 hover:border-pink-400 transition-colors">
+            <Card className="p-8 text-center border-2 border-blue-200 hover:border-[#2aaaea] transition-colors">
               <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-blue-500 to-purple-500 rounded-2xl flex items-center justify-center">
                 <TrendingUp className="w-10 h-10 text-white" />
               </div>
@@ -431,8 +434,8 @@ export default function PaidSocialPage() {
               <p className="text-gray-600">Perfect for growing businesses ready to scale</p>
             </Card>
             
-            <Card className="p-8 text-center border-2 border-pink-200 hover:border-pink-400 transition-colors">
-              <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-pink-500 to-rose-500 rounded-2xl flex items-center justify-center">
+            <Card className="p-8 text-center border-2 border-blue-200 hover:border-[#2aaaea] transition-colors">
+              <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-[#2aaaea] to-cyan-400 rounded-2xl flex items-center justify-center">
                 <Shield className="w-10 h-10 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Enterprise Business</h3>
@@ -443,7 +446,7 @@ export default function PaidSocialPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-pink-50/30">
+      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-indigo-50/30">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
@@ -492,8 +495,9 @@ export default function PaidSocialPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-br from-pink-500 via-rose-500 to-orange-500">
+      <section className="relative py-16 sm:py-20 bg-[#111a42]">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.1),transparent_50%)]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(59,130,246,0.1),transparent_50%)]"></div>
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
             See If We're the Right Team for You.
@@ -503,7 +507,7 @@ export default function PaidSocialPage() {
           </p>
           <Button 
             size="lg" 
-            className="bg-white text-pink-600 hover:bg-gray-100 text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all"
+            className="bg-gradient-to-r from-[#2aaaea] via-[#2aaaea] to-[#2aaaea] hover:from-[#2599d4] hover:via-[#2599d4] hover:to-[#2599d4] text-white border-0 shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 rounded-full px-8 py-6 font-semibold"
           >
             Book a Call
           </Button>

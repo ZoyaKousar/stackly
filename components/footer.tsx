@@ -49,7 +49,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-8">
           <p className="text-sm text-white/70 text-center">
-            © 2024 Stackly. All rights reserved. Part of Stellar.
+            © 2026 Stackly. All rights reserved. Part of Stellar.
           </p>
         </div>
       </div>

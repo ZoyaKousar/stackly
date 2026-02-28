@@ -12,15 +12,16 @@ export default function SEOPage() {
       
       {/* Hero Section */}
       <section className="relative pt-24 pb-16 sm:pt-28 sm:pb-20 lg:pt-32 lg:pb-24 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-pink-50 to-purple-50"></div>
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(236,72,153,0.1),transparent_50%)]"></div>
+        <div className="absolute inset-0 bg-[#111a42]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.05),transparent_50%)]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(59,130,246,0.1),transparent_50%)]"></div>
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto space-y-6">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 leading-tight">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight">
               With SEO, Hide and Seek Is Over
             </h1>
-            <p className="text-xl sm:text-2xl text-gray-600">
+            <p className="text-xl sm:text-2xl text-white/80">
               Time to get found over and over.
             </p>
           </div>
@@ -47,11 +48,11 @@ export default function SEOPage() {
       </section>
 
       {/* AI-Driven SEO Section */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-pink-50/30">
+      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-indigo-50/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
             <div className="inline-block mb-4">
-              <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center">
+              <div className="w-20 h-20 bg-gradient-to-br from-[#2aaaea] to-cyan-400 rounded-xl flex items-center justify-center">
                 <Brain className="w-10 h-10 text-white" />
               </div>
             </div>
@@ -70,15 +71,15 @@ export default function SEOPage() {
               <h3 className="text-xl font-bold text-gray-900 mb-4">To win you need:</h3>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-start gap-2">
-                  <Check className="w-5 h-5 text-pink-500 mt-0.5 flex-shrink-0" />
+                  <Check className="w-5 h-5 text-[#2aaaea] mt-0.5 flex-shrink-0" />
                   <span>Entity setup so AI knows exactly who you are</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <Check className="w-5 h-5 text-pink-500 mt-0.5 flex-shrink-0" />
+                  <Check className="w-5 h-5 text-[#2aaaea] mt-0.5 flex-shrink-0" />
                   <span>Strong content that answers real questions</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <Check className="w-5 h-5 text-pink-500 mt-0.5 flex-shrink-0" />
+                  <Check className="w-5 h-5 text-[#2aaaea] mt-0.5 flex-shrink-0" />
                   <span>Clean technical setup so AI can read you easily</span>
                 </li>
               </ul>
@@ -89,31 +90,31 @@ export default function SEOPage() {
             <h3 className="text-2xl font-bold text-gray-900 mb-6">AI-Driven SEO Services</h3>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="flex items-center gap-3">
-                <Check className="w-5 h-5 text-pink-500 flex-shrink-0" />
+                <Check className="w-5 h-5 text-[#2aaaea] flex-shrink-0" />
                 <span className="text-gray-700">Entity Optimization</span>
               </div>
               <div className="flex items-center gap-3">
-                <Check className="w-5 h-5 text-pink-500 flex-shrink-0" />
+                <Check className="w-5 h-5 text-[#2aaaea] flex-shrink-0" />
                 <span className="text-gray-700">AI Search Reporting</span>
               </div>
               <div className="flex items-center gap-3">
-                <Check className="w-5 h-5 text-pink-500 flex-shrink-0" />
+                <Check className="w-5 h-5 text-[#2aaaea] flex-shrink-0" />
                 <span className="text-gray-700">Customer Question Analysis</span>
               </div>
               <div className="flex items-center gap-3">
-                <Check className="w-5 h-5 text-pink-500 flex-shrink-0" />
+                <Check className="w-5 h-5 text-[#2aaaea] flex-shrink-0" />
                 <span className="text-gray-700">Content Built for AI Answers</span>
               </div>
               <div className="flex items-center gap-3">
-                <Check className="w-5 h-5 text-pink-500 flex-shrink-0" />
+                <Check className="w-5 h-5 text-[#2aaaea] flex-shrink-0" />
                 <span className="text-gray-700">Technical Site Structure</span>
               </div>
               <div className="flex items-center gap-3">
-                <Check className="w-5 h-5 text-pink-500 flex-shrink-0" />
+                <Check className="w-5 h-5 text-[#2aaaea] flex-shrink-0" />
                 <span className="text-gray-700">Competitor Analysis</span>
               </div>
               <div className="flex items-center gap-3">
-                <Check className="w-5 h-5 text-pink-500 flex-shrink-0" />
+                <Check className="w-5 h-5 text-[#2aaaea] flex-shrink-0" />
                 <span className="text-gray-700">AI Trend Tracking</span>
               </div>
             </div>
@@ -133,13 +134,13 @@ export default function SEOPage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Keyword Research</h3>
               <p className="text-gray-600 mb-4">We check what you already rank for, then dig deeper to find the best keywords that fit your site and beat the competition.</p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Identifying Seed Keywords</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Competitor Analysis</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> SERP Analysis</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Search Intent Analysis</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Long-Tail Keyword Research</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Keyword Difficulty Scoring</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Search Volume & Trend Analysis</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Identifying Seed Keywords</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Competitor Analysis</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> SERP Analysis</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Search Intent Analysis</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Long-Tail Keyword Research</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Keyword Difficulty Scoring</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Search Volume & Trend Analysis</li>
               </ul>
             </Card>
 
@@ -151,14 +152,14 @@ export default function SEOPage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Technical SEO</h3>
               <p className="text-gray-600 mb-4">Search engines need to move through your site without tripping. We fix it all – like cleaning up before company comes over.</p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Website Performance</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Mobile Friendliness</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Structured Data</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> XML Sitemap</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Clean URL Structure</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Canonical Tags</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Redirects</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Site Architecture</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Website Performance</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Mobile Friendliness</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Structured Data</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> XML Sitemap</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Clean URL Structure</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Canonical Tags</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Redirects</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Site Architecture</li>
               </ul>
             </Card>
 
@@ -170,48 +171,48 @@ export default function SEOPage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">On-Page SEO</h3>
               <p className="text-gray-600 mb-4">Our on-page people know their stuff. We write and optimize content that ranks well and looks good – titles, metas, images, links, the works.</p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Title Tags</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Meta Descriptions</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Header Tags</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> High-Quality Content</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Keyword Optimization</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Image Optimization</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Internal Linking</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Title Tags</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Meta Descriptions</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Header Tags</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> High-Quality Content</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Keyword Optimization</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Image Optimization</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Internal Linking</li>
               </ul>
             </Card>
 
             {/* Off-Page SEO */}
             <Card className="p-8 bg-white/90 backdrop-blur-sm hover:shadow-xl transition-all">
-              <div className="w-16 h-16 mb-6 bg-gradient-to-br from-rose-500 to-pink-500 rounded-xl flex items-center justify-center">
+              <div className="w-16 h-16 mb-6 bg-gradient-to-br from-[#2aaaea] to-cyan-400 rounded-xl flex items-center justify-center">
                 <Link2 className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Off-Page SEO</h3>
               <p className="text-gray-600 mb-4">This is how you build trust online – good links, mentions, shares, reviews.</p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Backlinks</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Social Signals</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Brand Mentions</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Guest Blogging</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Local Citations</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Customer Reviews</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Backlinks</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Social Signals</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Brand Mentions</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Guest Blogging</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Local Citations</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Customer Reviews</li>
               </ul>
             </Card>
 
             {/* Content Marketing */}
             <Card className="p-8 bg-white/90 backdrop-blur-sm hover:shadow-xl transition-all">
-              <div className="w-16 h-16 mb-6 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center">
+              <div className="w-16 h-16 mb-6 bg-gradient-to-br from-[#2aaaea] to-cyan-400 rounded-xl flex items-center justify-center">
                 <PenTool className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Content Marketing</h3>
               <p className="text-gray-600 mb-4">Content has to work for people and AI now. We research, plan, write, optimize, publish and track so it ranks and shows up in AI answers.</p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Research</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Planning</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Proofreading</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> AI & Search Optimization</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Publishing</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Promotion</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Monitoring Engagement (AI + Users)</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Research</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Planning</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Proofreading</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> AI & Search Optimization</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Publishing</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Promotion</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Monitoring Engagement (AI + Users)</li>
               </ul>
             </Card>
 
@@ -223,17 +224,17 @@ export default function SEOPage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Reporting</h3>
               <p className="text-gray-600 mb-4">Simple, useful reports – traffic, conversions, tech health, competitors, and now how you show up in AI results. No BS, just stuff you can act on.</p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Traffic Analysis</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> User Engagement Metrics</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Conversion Tracking</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Backlink Analysis</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Page Speed Insights</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Technical SEO Health</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Content Performance</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Goals & Objectives</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Actionable Recommendations</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Competitor Performance</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> AI Search Visibility Tracking</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Traffic Analysis</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> User Engagement Metrics</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Conversion Tracking</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Backlink Analysis</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Page Speed Insights</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Technical SEO Health</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Content Performance</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Goals & Objectives</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Actionable Recommendations</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Competitor Performance</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> AI Search Visibility Tracking</li>
               </ul>
             </Card>
           </div>
@@ -241,15 +242,16 @@ export default function SEOPage() {
       </section>
 
       {/* Free Audit CTA */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-br from-pink-500 via-rose-500 to-orange-500">
+      <section className="relative py-16 sm:py-20 bg-[#111a42]">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.1),transparent_50%)]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(59,130,246,0.1),transparent_50%)]"></div>
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
             Get Your Free Website Audit
           </h2>
           <Button 
             size="lg" 
-            className="bg-white text-pink-600 hover:bg-gray-100 text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all"
+            className="bg-gradient-to-r from-[#2aaaea] via-[#2aaaea] to-[#2aaaea] hover:from-[#2599d4] hover:via-[#2599d4] hover:to-[#2599d4] text-white border-0 shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 rounded-full px-8 py-6 font-semibold"
           >
             Yes Please
           </Button>
@@ -266,7 +268,7 @@ export default function SEOPage() {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <Card className="p-8 text-center border-2 border-pink-200 hover:border-pink-400 transition-colors">
+            <Card className="p-8 text-center border-2 border-blue-200 hover:border-[#2aaaea] transition-colors">
               <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-green-500 to-emerald-500 rounded-full flex items-center justify-center">
                 <Check className="w-8 h-8 text-white" />
               </div>
@@ -274,7 +276,7 @@ export default function SEOPage() {
               <p className="text-gray-600">Start growth with zero upfront cost.</p>
             </Card>
             
-            <Card className="p-8 text-center border-2 border-pink-200 hover:border-pink-400 transition-colors">
+            <Card className="p-8 text-center border-2 border-blue-200 hover:border-[#2aaaea] transition-colors">
               <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full flex items-center justify-center">
                 <Shield className="w-8 h-8 text-white" />
               </div>
@@ -282,8 +284,8 @@ export default function SEOPage() {
               <p className="text-gray-600">Every step and asset is yours.</p>
             </Card>
             
-            <Card className="p-8 text-center border-2 border-pink-200 hover:border-pink-400 transition-colors">
-              <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-pink-500 to-rose-500 rounded-full flex items-center justify-center">
+            <Card className="p-8 text-center border-2 border-blue-200 hover:border-[#2aaaea] transition-colors">
+              <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-[#2aaaea] to-cyan-400 rounded-full flex items-center justify-center">
                 <Users className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Dedicated Team</h3>
@@ -294,7 +296,7 @@ export default function SEOPage() {
       </section>
 
       {/* Timeline Section */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-pink-50/30">
+      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-indigo-50/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
@@ -305,7 +307,7 @@ export default function SEOPage() {
           
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="p-8 bg-white/90 backdrop-blur-sm hover:shadow-xl transition-all">
-              <div className="text-5xl font-bold bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent mb-2">
+              <div className="text-5xl font-bold bg-gradient-to-r from-[#2aaaea] to-cyan-400 bg-clip-text text-transparent mb-2">
                 0-3
               </div>
               <div className="text-xl font-semibold text-gray-900 mb-4">Months</div>
@@ -346,11 +348,11 @@ export default function SEOPage() {
             </p>
           </div>
           
-          <Card className="p-8 md:p-12 bg-gradient-to-br from-pink-50 to-blue-50 border-2 border-pink-200">
+          <Card className="p-8 md:p-12 bg-gradient-to-br from-slate-50 to-blue-50 border-2 border-blue-200">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <div className="inline-block px-4 py-2 bg-white rounded-full mb-6">
-                  <span className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent">NRG Clean Power</span>
+                  <span className="text-2xl font-bold bg-gradient-to-r from-[#2aaaea] to-cyan-400 bg-clip-text text-transparent">NRG Clean Power</span>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">About the Brand</h3>
                 <p className="text-gray-600 mb-6">LA solar company using California credits and Google ads.</p>
@@ -364,20 +366,20 @@ export default function SEOPage() {
                     <h4 className="font-semibold text-gray-900 mb-2">The Solution</h4>
                     <p className="text-gray-600">Tuned Performance Max with CRM data + solar audience targeting.</p>
                   </div>
-                  <div className="pt-4 border-t border-pink-200">
+                  <div className="pt-4 border-t border-blue-200">
                     <h4 className="font-semibold text-gray-900 mb-2">Business Impact</h4>
                     <div className="grid grid-cols-2 gap-4 mb-4">
                       <div>
-                        <div className="text-3xl font-bold bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent">309%</div>
+                        <div className="text-3xl font-bold bg-gradient-to-r from-[#2aaaea] to-cyan-400 bg-clip-text text-transparent">309%</div>
                         <p className="text-sm text-gray-600">more leads</p>
                       </div>
                       <div>
-                        <div className="text-3xl font-bold bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent">9.87×</div>
+                        <div className="text-3xl font-bold bg-gradient-to-r from-[#2aaaea] to-cyan-400 bg-clip-text text-transparent">9.87×</div>
                         <p className="text-sm text-gray-600">ROAS</p>
                       </div>
                     </div>
                     <p className="text-gray-600 mb-4">$147,822 revenue in just 60 days.</p>
-                    <div className="bg-white/80 p-4 rounded-lg border-l-4 border-pink-500">
+                    <div className="bg-white/80 p-4 rounded-lg border-l-4 border-[#2aaaea]">
                       <p className="text-gray-700 italic">"Every campaign has better clicks and conversions than before. Their attention to detail got us our highest revenue goal yet."</p>
                       <p className="text-sm text-gray-600 mt-2 font-semibold">— Oren Schott, CEO</p>
                     </div>
@@ -399,7 +401,7 @@ export default function SEOPage() {
       </section>
 
       {/* Other Services */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-pink-50/30">
+      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-indigo-50/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
@@ -417,7 +419,7 @@ export default function SEOPage() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Paid Search</h3>
               <p className="text-gray-600 mb-4">Smart visibility techniques</p>
-              <Link href="/services/paid-search" className="flex items-center text-pink-600 font-medium">
+              <Link href="/services/paid-search" className="flex items-center text-[#2aaaea] font-medium">
                 Learn More <ArrowRight className="w-4 h-4 ml-2" />
               </Link>
             </Card>
@@ -428,18 +430,18 @@ export default function SEOPage() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Paid Social</h3>
               <p className="text-gray-600 mb-4">Real connections and engagement</p>
-              <Link href="/services/paid-social" className="flex items-center text-pink-600 font-medium">
+              <Link href="/services/paid-social" className="flex items-center text-[#2aaaea] font-medium">
                 Learn More <ArrowRight className="w-4 h-4 ml-2" />
               </Link>
             </Card>
             
             <Card className="p-8 bg-white/90 backdrop-blur-sm hover:shadow-xl transition-all group cursor-pointer">
-              <div className="w-16 h-16 mb-6 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
+              <div className="w-16 h-16 mb-6 bg-gradient-to-br from-[#2aaaea] to-cyan-400 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
                 <Zap className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Performance Creative</h3>
               <p className="text-gray-600 mb-4">Award-winning in-house team</p>
-              <Link href="/services/performance-creative" className="flex items-center text-pink-600 font-medium">
+              <Link href="/services/performance-creative" className="flex items-center text-[#2aaaea] font-medium">
                 Learn More <ArrowRight className="w-4 h-4 ml-2" />
               </Link>
             </Card>
@@ -448,15 +450,16 @@ export default function SEOPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-br from-pink-500 via-rose-500 to-orange-500">
+      <section className="relative py-16 sm:py-20 bg-[#111a42]">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.1),transparent_50%)]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(59,130,246,0.1),transparent_50%)]"></div>
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
             Let's Talk About Your Goals.
           </h2>
           <Button 
             size="lg" 
-            className="bg-white text-pink-600 hover:bg-gray-100 text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all"
+            className="bg-gradient-to-r from-[#2aaaea] via-[#2aaaea] to-[#2aaaea] hover:from-[#2599d4] hover:via-[#2599d4] hover:to-[#2599d4] text-white border-0 shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 rounded-full px-8 py-6 font-semibold"
           >
             BOOK A CALL
           </Button>
@@ -473,7 +476,7 @@ export default function SEOPage() {
           </div>
           
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <Card className="p-8 text-center border-2 border-pink-200 hover:border-pink-400 transition-colors">
+            <Card className="p-8 text-center border-2 border-blue-200 hover:border-[#2aaaea] transition-colors">
               <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-blue-500 to-purple-500 rounded-2xl flex items-center justify-center">
                 <TrendingUp className="w-10 h-10 text-white" />
               </div>
@@ -481,8 +484,8 @@ export default function SEOPage() {
               <p className="text-gray-600">Perfect for growing businesses ready to scale</p>
             </Card>
             
-            <Card className="p-8 text-center border-2 border-pink-200 hover:border-pink-400 transition-colors">
-              <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-pink-500 to-rose-500 rounded-2xl flex items-center justify-center">
+            <Card className="p-8 text-center border-2 border-blue-200 hover:border-[#2aaaea] transition-colors">
+              <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-[#2aaaea] to-cyan-400 rounded-2xl flex items-center justify-center">
                 <Shield className="w-10 h-10 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Enterprise Business</h3>
@@ -493,7 +496,7 @@ export default function SEOPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-pink-50/30">
+      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-indigo-50/30">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
@@ -542,8 +545,9 @@ export default function SEOPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-br from-pink-500 via-rose-500 to-orange-500">
+      <section className="relative py-16 sm:py-20 bg-[#111a42]">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.1),transparent_50%)]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(59,130,246,0.1),transparent_50%)]"></div>
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
             See If We're the Right Team for You.
@@ -553,7 +557,7 @@ export default function SEOPage() {
           </p>
           <Button 
             size="lg" 
-            className="bg-white text-pink-600 hover:bg-gray-100 text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all"
+            className="bg-gradient-to-r from-[#2aaaea] via-[#2aaaea] to-[#2aaaea] hover:from-[#2599d4] hover:via-[#2599d4] hover:to-[#2599d4] text-white border-0 shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 rounded-full px-8 py-6 font-semibold"
           >
             Book a Call
           </Button>

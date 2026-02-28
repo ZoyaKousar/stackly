@@ -12,15 +12,16 @@ export default function PerformanceCreativePage() {
       
       {/* Hero Section */}
       <section className="relative pt-24 pb-16 sm:pt-28 sm:pb-20 lg:pt-32 lg:pb-24 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-pink-50 to-purple-50"></div>
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(236,72,153,0.1),transparent_50%)]"></div>
+        <div className="absolute inset-0 bg-[#111a42]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.05),transparent_50%)]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(59,130,246,0.1),transparent_50%)]"></div>
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto space-y-6">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 leading-tight">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight">
               Performance Creative.
             </h1>
-            <p className="text-xl sm:text-2xl text-gray-600">
+            <p className="text-xl sm:text-2xl text-white/80">
               Where creativity actually meets real numbers. Ready to jump in?
             </p>
           </div>
@@ -32,7 +33,7 @@ export default function PerformanceCreativePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <div className="inline-block mb-6">
-              <div className="w-24 h-24 mx-auto bg-gradient-to-br from-yellow-400 to-orange-500 rounded-2xl flex items-center justify-center">
+              <div className="w-24 h-24 mx-auto bg-gradient-to-br from-[#2aaaea] to-cyan-400 rounded-2xl flex items-center justify-center">
                 <Award className="w-12 h-12 text-white" />
               </div>
             </div>
@@ -47,23 +48,23 @@ export default function PerformanceCreativePage() {
       </section>
 
       {/* Services Grid */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-pink-50/30">
+      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-indigo-50/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Advertising Assets */}
             <Card className="p-8 bg-white/90 backdrop-blur-sm hover:shadow-xl transition-all">
-              <div className="w-16 h-16 mb-6 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center">
+              <div className="w-16 h-16 mb-6 bg-gradient-to-br from-[#2aaaea] to-cyan-400 rounded-xl flex items-center justify-center">
                 <ImageIcon className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Advertising Assets</h3>
               <p className="text-gray-600 mb-4">Great creativity is what makes digital marketing actually work. We build visuals and animations made for paid search and social that get noticed and turn into sales.</p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> PMAX (Performance Max) Image Assets</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Custom Display Ads</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Responsive Display Ads (RDA) Images</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Paid Social Image Creatives + Carousel Ads</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Feed & Story Ad Creative</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Short-Form + UGC Video Editing</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> PMAX (Performance Max) Image Assets</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Custom Display Ads</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Responsive Display Ads (RDA) Images</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Paid Social Image Creatives + Carousel Ads</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Feed & Story Ad Creative</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Short-Form + UGC Video Editing</li>
               </ul>
             </Card>
 
@@ -75,10 +76,10 @@ export default function PerformanceCreativePage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Landing Pages</h3>
               <p className="text-gray-600 mb-4">This is where interest turns into money. We create, host and tune mobile-first landing pages that look sharp and convert on any device.</p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Custom Mobile-Responsive Landing Page Design</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Hosting via Unbounce</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> A/B Testing & Optimization</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Sharing Detailed A/B Test Reports</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Custom Mobile-Responsive Landing Page Design</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Hosting via Unbounce</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> A/B Testing & Optimization</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Sharing Detailed A/B Test Reports</li>
               </ul>
             </Card>
 
@@ -90,26 +91,26 @@ export default function PerformanceCreativePage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Strategy + Consultation</h3>
               <p className="text-gray-600 mb-4">Every brand has its own story. We help you tell it better, audits, strategy sessions, always staying inside your brand rules so your online look feels consistent and strong.</p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Website + Landing Page Audits</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Creative Consultation & Strategy</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Strictly Within Your Brand Guidelines</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Dedicated Designer Assigned to Your Account</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Website + Landing Page Audits</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Creative Consultation & Strategy</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Strictly Within Your Brand Guidelines</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Dedicated Designer Assigned to Your Account</li>
               </ul>
             </Card>
 
             {/* Partnership Approach */}
             <Card className="p-8 bg-white/90 backdrop-blur-sm hover:shadow-xl transition-all">
-              <div className="w-16 h-16 mb-6 bg-gradient-to-br from-rose-500 to-pink-500 rounded-xl flex items-center justify-center">
+              <div className="w-16 h-16 mb-6 bg-gradient-to-br from-[#2aaaea] to-cyan-400 rounded-xl flex items-center justify-center">
                 <Users className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Partnership Approach</h3>
               <p className="text-gray-600 mb-4">We're not just sending files, we're working together. Constant back-and-forth, a designer who knows your account inside out, your vision actually happening.</p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Dedicated Designer on Your Account</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Ongoing Client Communication</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Creative Work Aligned with Brand Guidelines</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Support Across All Digital Platforms</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Real-Time Creative Feedback Tool</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Dedicated Designer on Your Account</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Ongoing Client Communication</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Creative Work Aligned with Brand Guidelines</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Support Across All Digital Platforms</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Real-Time Creative Feedback Tool</li>
               </ul>
             </Card>
 
@@ -121,12 +122,12 @@ export default function PerformanceCreativePage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Performance & Analytics</h3>
               <p className="text-gray-600 mb-4">We track how the creative actually performs so we can keep making it better and improve your return.</p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Creative Performance Analysis & Reporting</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> A/B Testing Results & Insights</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Landing Page Conversion Metrics</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Ad Creative Engagement Rates</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Social Content Performance Analysis</li>
-                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-pink-500" /> Tailored Optimization Recommendations</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Creative Performance Analysis & Reporting</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> A/B Testing Results & Insights</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Landing Page Conversion Metrics</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Ad Creative Engagement Rates</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Social Content Performance Analysis</li>
+                <li className="flex items-center gap-2"><Check className="w-4 h-4 text-[#2aaaea]" /> Tailored Optimization Recommendations</li>
               </ul>
             </Card>
           </div>
@@ -134,15 +135,16 @@ export default function PerformanceCreativePage() {
       </section>
 
       {/* Free Audit CTA */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-br from-pink-500 via-rose-500 to-orange-500">
+      <section className="relative py-16 sm:py-20 bg-[#111a42]">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.1),transparent_50%)]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(59,130,246,0.1),transparent_50%)]"></div>
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
             Get Your Free Landing Page Audit
           </h2>
           <Button 
             size="lg" 
-            className="bg-white text-pink-600 hover:bg-gray-100 text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all"
+            className="bg-gradient-to-r from-[#2aaaea] via-[#2aaaea] to-[#2aaaea] hover:from-[#2599d4] hover:via-[#2599d4] hover:to-[#2599d4] text-white border-0 shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 rounded-full px-8 py-6 font-semibold"
           >
             Yes Please
           </Button>
@@ -159,7 +161,7 @@ export default function PerformanceCreativePage() {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <Card className="p-8 text-center border-2 border-pink-200 hover:border-pink-400 transition-colors">
+            <Card className="p-8 text-center border-2 border-blue-200 hover:border-[#2aaaea] transition-colors">
               <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-green-500 to-emerald-500 rounded-full flex items-center justify-center">
                 <Check className="w-8 h-8 text-white" />
               </div>
@@ -167,7 +169,7 @@ export default function PerformanceCreativePage() {
               <p className="text-gray-600">Start with zero upfront cost.</p>
             </Card>
             
-            <Card className="p-8 text-center border-2 border-pink-200 hover:border-pink-400 transition-colors">
+            <Card className="p-8 text-center border-2 border-blue-200 hover:border-[#2aaaea] transition-colors">
               <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full flex items-center justify-center">
                 <Shield className="w-8 h-8 text-white" />
               </div>
@@ -175,8 +177,8 @@ export default function PerformanceCreativePage() {
               <p className="text-gray-600">Every creative and asset is yours 100%.</p>
             </Card>
             
-            <Card className="p-8 text-center border-2 border-pink-200 hover:border-pink-400 transition-colors">
-              <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-pink-500 to-rose-500 rounded-full flex items-center justify-center">
+            <Card className="p-8 text-center border-2 border-blue-200 hover:border-[#2aaaea] transition-colors">
+              <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-[#2aaaea] to-cyan-400 rounded-full flex items-center justify-center">
                 <Users className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Dedicated Team</h3>
@@ -187,7 +189,7 @@ export default function PerformanceCreativePage() {
       </section>
 
       {/* Timeline Section */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-pink-50/30">
+      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-indigo-50/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
@@ -198,7 +200,7 @@ export default function PerformanceCreativePage() {
           
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="p-8 bg-white/90 backdrop-blur-sm hover:shadow-xl transition-all">
-              <div className="text-5xl font-bold bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent mb-2">
+              <div className="text-5xl font-bold bg-gradient-to-r from-[#2aaaea] to-cyan-400 bg-clip-text text-transparent mb-2">
                 0-3
               </div>
               <div className="text-xl font-semibold text-gray-900 mb-4">Months</div>
@@ -239,11 +241,11 @@ export default function PerformanceCreativePage() {
             </p>
           </div>
           
-          <Card className="p-8 md:p-12 bg-gradient-to-br from-pink-50 to-blue-50 border-2 border-pink-200">
+          <Card className="p-8 md:p-12 bg-gradient-to-br from-slate-50 to-blue-50 border-2 border-blue-200">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <div className="inline-block px-4 py-2 bg-white rounded-full mb-6">
-                  <span className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent">Page Publishing</span>
+                  <span className="text-2xl font-bold bg-gradient-to-r from-[#2aaaea] to-cyan-400 bg-clip-text text-transparent">Page Publishing</span>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">About the Brand</h3>
                 <p className="text-gray-600 mb-6">US book publishers wanted stronger leads from Google and Microsoft Ads in multiple areas.</p>
@@ -257,11 +259,11 @@ export default function PerformanceCreativePage() {
                     <h4 className="font-semibold text-gray-900 mb-2">The Solution</h4>
                     <p className="text-gray-600">Tested landing page forms and switched to embedded style for better conversions.</p>
                   </div>
-                  <div className="pt-4 border-t border-pink-200">
+                  <div className="pt-4 border-t border-blue-200">
                     <h4 className="font-semibold text-gray-900 mb-2">Business Impact</h4>
                     <div className="grid grid-cols-1 gap-4">
                       <div>
-                        <div className="text-3xl font-bold bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent">27%</div>
+                        <div className="text-3xl font-bold bg-gradient-to-r from-[#2aaaea] to-cyan-400 bg-clip-text text-transparent">27%</div>
                         <p className="text-sm text-gray-600">jump in landing page conversions</p>
                       </div>
                       <p className="text-gray-600 mt-2">Costs per conversion dropped a lot.</p>
@@ -270,7 +272,7 @@ export default function PerformanceCreativePage() {
                 </div>
               </div>
               <div className="relative h-96 rounded-2xl overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-purple-400 via-pink-400 to-rose-400"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-[#111a42] via-[#2aaaea] to-cyan-400"></div>
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center text-white p-8">
                     <Layout className="w-24 h-24 mx-auto mb-4 opacity-50" />
@@ -284,7 +286,7 @@ export default function PerformanceCreativePage() {
       </section>
 
       {/* Other Services */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-pink-50/30">
+      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-indigo-50/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
@@ -302,7 +304,7 @@ export default function PerformanceCreativePage() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Paid Search</h3>
               <p className="text-gray-600 mb-4">Super targeted growth</p>
-              <Link href="/services/paid-search" className="flex items-center text-pink-600 font-medium">
+              <Link href="/services/paid-search" className="flex items-center text-[#2aaaea] font-medium">
                 Learn More <ArrowRight className="w-4 h-4 ml-2" />
               </Link>
             </Card>
@@ -313,7 +315,7 @@ export default function PerformanceCreativePage() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Paid Social</h3>
               <p className="text-gray-600 mb-4">Deeper connections and engagement</p>
-              <Link href="/services/paid-social" className="flex items-center text-pink-600 font-medium">
+              <Link href="/services/paid-social" className="flex items-center text-[#2aaaea] font-medium">
                 Learn More <ArrowRight className="w-4 h-4 ml-2" />
               </Link>
             </Card>
@@ -324,7 +326,7 @@ export default function PerformanceCreativePage() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Amazon</h3>
               <p className="text-gray-600 mb-4">Expert care to max out potential</p>
-              <div className="flex items-center text-pink-600 font-medium">
+              <div className="flex items-center text-[#2aaaea] font-medium">
                 Learn More <ArrowRight className="w-4 h-4 ml-2" />
               </div>
             </Card>
@@ -333,15 +335,16 @@ export default function PerformanceCreativePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-br from-pink-500 via-rose-500 to-orange-500">
+      <section className="relative py-16 sm:py-20 bg-[#111a42]">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.1),transparent_50%)]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(59,130,246,0.1),transparent_50%)]"></div>
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
             Let's Talk About Your Goals.
           </h2>
           <Button 
             size="lg" 
-            className="bg-white text-pink-600 hover:bg-gray-100 text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all"
+            className="bg-gradient-to-r from-[#2aaaea] via-[#2aaaea] to-[#2aaaea] hover:from-[#2599d4] hover:via-[#2599d4] hover:to-[#2599d4] text-white border-0 shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 rounded-full px-8 py-6 font-semibold"
           >
             BOOK A CALL
           </Button>
@@ -361,7 +364,7 @@ export default function PerformanceCreativePage() {
           </div>
           
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <Card className="p-8 text-center border-2 border-pink-200 hover:border-pink-400 transition-colors">
+            <Card className="p-8 text-center border-2 border-blue-200 hover:border-[#2aaaea] transition-colors">
               <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-blue-500 to-purple-500 rounded-2xl flex items-center justify-center">
                 <TrendingUp className="w-10 h-10 text-white" />
               </div>
@@ -369,8 +372,8 @@ export default function PerformanceCreativePage() {
               <p className="text-gray-600">Perfect for growing businesses ready to scale</p>
             </Card>
             
-            <Card className="p-8 text-center border-2 border-pink-200 hover:border-pink-400 transition-colors">
-              <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-pink-500 to-rose-500 rounded-2xl flex items-center justify-center">
+            <Card className="p-8 text-center border-2 border-blue-200 hover:border-[#2aaaea] transition-colors">
+              <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-[#2aaaea] to-cyan-400 rounded-2xl flex items-center justify-center">
                 <Shield className="w-10 h-10 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Enterprise Business</h3>
@@ -381,7 +384,7 @@ export default function PerformanceCreativePage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-pink-50/30">
+      <section className="relative py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/30 to-indigo-50/30">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
@@ -430,8 +433,9 @@ export default function PerformanceCreativePage() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative py-16 sm:py-20 bg-gradient-to-br from-pink-500 via-rose-500 to-orange-500">
+      <section className="relative py-16 sm:py-20 bg-[#111a42]">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.1),transparent_50%)]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(59,130,246,0.1),transparent_50%)]"></div>
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
             See If We're the Right Team for You.
@@ -441,7 +445,7 @@ export default function PerformanceCreativePage() {
           </p>
           <Button 
             size="lg" 
-            className="bg-white text-pink-600 hover:bg-gray-100 text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all"
+            className="bg-gradient-to-r from-[#2aaaea] via-[#2aaaea] to-[#2aaaea] hover:from-[#2599d4] hover:via-[#2599d4] hover:to-[#2599d4] text-white border-0 shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 rounded-full px-8 py-6 font-semibold"
           >
             Book a Call
           </Button>
