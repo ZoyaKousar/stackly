@@ -18,7 +18,7 @@ export default function Hero() {
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-indigo-100 via-blue-100 to-slate-100 p-2 shadow-xl">
                 <div className="w-full h-full rounded-xl overflow-hidden relative">
                   <Image
-                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=800&fit=crop"
+                    src="/heroimage.jpg"
                     alt="Happy professional team collaborating"
                     fill
                     className="object-cover"
@@ -85,7 +85,7 @@ export default function Hero() {
                   <div className="absolute inset-0 rounded-full bg-gradient-to-br from-indigo-100 via-blue-100 to-slate-100 p-3 shadow-2xl group-hover:shadow-3xl transition-shadow duration-300">
                     <div className="w-full h-full rounded-full overflow-hidden relative">
                       <Image
-                        src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=800&fit=crop"
+                        src="/heroimage.jpg"
                         alt="Happy professional team collaborating"
                         fill
                         className="object-cover group-hover:scale-110 transition-transform duration-500"
